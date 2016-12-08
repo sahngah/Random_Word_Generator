@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h3>Random Word (Attempt: @ViewBag.attempt)</h3>
+<h1>@ViewBag.random</h1>
+<form action="generate">
+    <input type="submit" value="Generate!">
+</form>
